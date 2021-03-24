@@ -1,0 +1,69 @@
+
+/*------------------------------------------Main elements--------------------------------------------------*/
+body {
+	background-color: rgb(193,198,220); /*background color*/
+	color: rgb(64,64,94); /*text color*/
+	font-family: Georgia, Times, serif; /*page font*/
+	border: 1px solid grey;
+}
+/*formatting for the banner across top of page*/		
+#banner {
+	background-color: rgb(247,162,126); /*background color*/
+	text-align: center; /*text centered */
+	color: white; /*text colour*/
+	border: 1px solid grey; /*border around the page banner*/
+	padding: 15px 0px 15px 0px; 
+}
+/*formatting for the footer element*/	
+#footer {
+	background-color: rgb(247,162,126); 
+	text-align: center;
+	color: white;
+	clear: both; /*clears any float formatting*/
+	border: 1px solid grey;
+	padding-top: 7px;
+	padding-bottom: 8px;	
+}
+/*------------------------------------------content--------------------------------------------------*/
+/*main content formatting - float right*/
+#content {
+	float: right;
+	width: 80%;
+	border-left: 1px solid grey;
+	padding-left: 3%;
+	padding-top: 2%;
+	font-size: 1.0em;
+}
+#para3{
+	text-align: center;
+}
+#images{
+	text-align: center;	
+}
+a:link{
+	text-decoration: none;
+}
+/*------------------------------------------Navigation--------------------------------------------------*/
+/*navigation bar formatting - float left*/  
+/* issues with responsivness of the navigation bar when resized down. look into css grid / flexbox */
+#nav {
+	padding-top: 1%;
+	float: clear;
+	width: 14%;
+	overflow: hidden;	
+}
+#nav li{
+	display: block;
+	list-style: none;
+	margin-left: 0;
+}
+#nav li a{
+	display: block;
+	color: rgb(190,95,55);
+	font-size: 150%;
+	font-weight: bold;
+	padding: 12% 0%;	
+}
+#nav ul li a{
+	border-bottom: 1px solid grey;
+}	
